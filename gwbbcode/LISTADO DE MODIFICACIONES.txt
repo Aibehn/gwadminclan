@@ -1,0 +1,35 @@
+ruta del gwbbocde:
+
+modules/Forums/gwbbcode
+
+
+
+install.php
+
+137: 	  define('_phpbb_root_path','./../');
+
+
+gwbbcode.php
+
+22:	define('GWBBCODE_ROOT','modules/Forums/gwbbcode');
+
+body.php
+
+22:	define('GWBBCODE_ROOT','modules/Forums/gwbbcode');
+
+header.php
+
+22:	define('GWBBCODE_ROOT','modules/Forums/gwbbcode');
+
+pickup.php //antiguo pickup, en la version anterior funcionaba
+
+43:
+
+	// esto se ha modificado....@Aibehn
+	$username=base64_decode($user);
+	$username=addslashes($username);
+	$username = explode(":", $username);
+	$username = $username[1];
+	if($username=="" || $username==$anonymous)
+	  return;//si se trata de un usuario anónimo termina el pickup
+	// esto se ha modificado.... @Aibehn

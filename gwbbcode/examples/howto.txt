@@ -1,0 +1,52 @@
+Mouse over these icons and guess what changed! :)
+
+Since it's a skill, [[shock] goes through [[Spell Breaker].
+[pre]Since it's a skill, [[shock] goes through [[Spell Breaker].[/pre]
+
+But [[SB] prevents [[esurge], [[eburn] and [[edrain].
+[pre]But [[SB] prevents [[esurge], [[eburn] and [[edrain].[/pre]
+
+[charge]
+[pre][charge][/pre]
+
+[charge@9]
+[pre][charge@9][/pre]
+
+Various syntaxes are available to turn a template code into a skill bar:
+[Mighty something;OQYQEnTqAAAAAAAAAA]
+[pre][Mighty something;OQYQEnTqAAAAAAAAAA][/pre]
+[pre][build=Mighty something;OQYQEnTqAAAAAAAAAA][/pre]
+[pre][build=OQYQEnTqAAAAAAAAAA][/pre]
+
+To specify an attribute level, you have to write enough of the attribute name for gwBBCode to understand which one it is. Case doesn't matter but don't use spaces. Actually, first three letters are often enough, but there are 3 exceptions: dea is Death Magic and dead is Deadly Arts; com is Communing and comma is Command; ear is Earth Magic and earthp is Earth Prayers.
+[build aIrmaGic=6 dea=0 dead=12][shock][Dark Aura][Impale][/build]
+[pre][build aIrmaGic=6 dea=0 dead=12][shock][Dark Aura][Impale][/build][/pre]
+
+[build prof=W/E][shock][evis][/build]
+[pre][build prof=W/E][shock][evis][/build][/pre]
+
+[build prof=W/E swo=12 air=8][Shock][Evis][/build]
+[pre][build prof=W/E swo=12 air=8][Shock][Evis][/build][/pre]
+
+[build prof=W/E swo=12+1+3 air=8][Shock][Eviscerate][/build]
+[pre][build prof=W/E swo=12+1+3 air=8][Shock][Eviscerate][/build][/pre]
+
+[build prof=W/E desc="Weapon set #1: 2x20% recharge{br}Weapon set #2: maximum energy"][Shock][Eviscerate][/build]
+[pre][build prof=W/E desc="Weapon set #1: 2x20% recharge{br}Weapon set #2: maximum energy"][Shock][Eviscerate][/build][/pre]
+
+[build prof=W/E name="Mighty something"][Shock][Eviscerate][/build]
+[pre][build prof=W/E name="Mighty something"][Shock][Eviscerate][/build][/pre]
+
+[build prof=W/E pickup="some_unique_id"][Shock][Eviscerate][/build]
+[pre][build prof=W/E pickup="some_unique_id"][Shock][Eviscerate][/build][/pre]
+
+Tested me: [pickup="pickup test"]
+[pre]Tested me: [pickup="pickup test"][/pre]
+
+gwBBCode [gwbbcode version]
+[pre]gwBBCode [gwbbcode version][/pre]
+
+This page took [gwbbcode runtime] second(s) to prepare.
+[pre]This page took [gwbbcode runtime] second(s) to prepare.[/pre]
+
+Editing tools: [url=http://gwShack.us]gwShack.us[/url]
